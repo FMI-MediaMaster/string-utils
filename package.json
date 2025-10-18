@@ -1,0 +1,27 @@
+{
+  "name": "@FMI-MediaMaster/best-match",
+  "description": "Finds the best match given a target and an array",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "packageManager": "pnpm@10.18.3",
+  "type": "module",
+  "repository": {
+    "url": "https://github.com/FMI-MediaMaster/BestMatch.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "match"
+  ],
+  "scripts": {
+    "build": "rm -rf dist/* && tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "@types/node": "^24.7.2",
+    "eslint": "^9.37.0",
+    "typescript-eslint": "^8.46.1"
+  }
+}
