@@ -1,13 +1,13 @@
 {
-  "name": "<NAME>",
-  "description": "Description for package <NAME>",
+  "name": "string-utils",
+  "description": "Several string utils",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
   "packageManager": "pnpm@10.18.3",
   "type": "module",
   "repository": {
-    "url": "<REPO_URL>"
+    "url": "https://github.com/FMI-MediaMaster/string-utils.git"
   },
   "keywords": [],
   "scripts": {
